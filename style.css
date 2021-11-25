@@ -2,3 +2,7 @@
   border: 1px solid black;
   height: 100px;
 }
+body {
+  background-image: url(./chris-liverani-rD2dc_2S3i0-unsplash.jpg);
+  background-size: cover;
+}
