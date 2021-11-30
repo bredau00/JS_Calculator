@@ -13,7 +13,7 @@
     />
   </head>
   <body>
-    <div class="container container-fluid">
+    <!-- <div class="container container-fluid">
       <div class="col-12 border border-3 rounded">
         <div class="row">
           <div id="output" class="col w-100"></div>
@@ -187,6 +187,93 @@
           </div>
         </div>
       </div>
+    </div> -->
+
+    <section class="pt-5">
+
+      <div class="container rounded" style="background-color: #31313a;">
+        <div class="row pt-3">
+          <div class="col">
+            <div id="output" class="rounded w-100 px-4"></div>
+          </div>
+        </div>
+      <br>
+
+      <div class="row px-4">
+        <div class="col">
+          <button type="button" class="btn w-100 btn-secondary" onclick="addtosum('1')">1</button>
+        </div>
+        <div class="col">
+          <button type="button" class="btn w-100 btn-secondary" onclick="addtosum('2')">2</button>
+        </div>
+        <div class="col">
+          <button type="button" class="btn w-100 btn-secondary" onclick="addtosum('3')">3</button>
+        </div>
+        <div class="col">
+          <button type="button" class="btn w-100 btn-warning" onclick="addtosum('+')">+</button>
+        </div>
+      </div><br>
+
+      <div class="row px-4">
+        <div class="col">
+          <button type="button" class="btn w-100 btn-secondary" onclick="addtosum('4')">4</button>
+        </div>
+        <div class="col">
+          <button type="button" class="btn w-100 btn-secondary" onclick="addtosum('5')">5</button>
+        </div>
+        <div class="col">
+          <button type="button" class="btn w-100 btn-secondary" onclick="addtosum('6')">6</button>
+        </div>
+        <div class="col">
+          <button type="button" class="btn w-100 btn-warning" onclick="addtosum('-')">-</button>
+        </div>
+      </div><br>
+
+      <div class="row px-4">
+        <div class="col">
+          <button type="button" class="btn w-100 btn-secondary" onclick="addtosum('7')">7</button>
+        </div>
+        <div class="col">
+          <button type="button" class="btn w-100 btn-secondary" onclick="addtosum('8')">8</button>
+        </div>
+        <div class="col">
+          <button type="button" class="btn w-100 btn-secondary" onclick="addtosum('9')">9</button>
+        </div>
+        <div class="col">
+          <button type="button" class="btn w-100 btn-warning" onclick="addtosum('/')">/</button>
+        </div>
+      </div><br>
+
+      <div class="row px-4">
+        <div class="col">
+          <button type="button" class="btn w-100 btn-secondary" onclick="addtosum('0')">0</button>
+        </div>
+        <div class="col">
+          <button type="button" class="btn w-100 btn-warning" onclick="addtosum('*')">*</button>
+        </div>
+        <div class="col">
+          <button type="button" class="btn w-100 btn-warning" onclick="addtosum('.')">.</button>
+        </div>
+        <div class="col">
+          <button type="button" class="btn w-100 btn-warning" onclick="evaluatesum('=')">=</button>
+        </div>
+      </div><br>
+
+      <div class="row px-4">
+        <div class="col">
+          <button type="button" class="btn w-100 btn-warning" onclick="clearsum('')">clear</button>
+        </div>
+      </div>
+
+    </section>
+
+    
+      
+
+      
+
+
+      
     </div>
     <script src="script.js"></script>
     <script

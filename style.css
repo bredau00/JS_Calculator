@@ -1,9 +1,13 @@
 #output {
   border: 1px solid black;
-  height: 90px;
   background-color: white;
+  height: 150px;
 }
 body {
   background-image: url(./chris-liverani-rD2dc_2S3i0-unsplash.jpg);
   background-size: cover;
+}
+
+.container {
+  height: 500px;
 }
